@@ -17,7 +17,6 @@ return new class extends Migration
             $table->increments('id');
             $table->string('title', 100);
             $table->integer('tag');
-            $table->string('tag_name', 20);
             $table->timestamp('created_at')->useCurrent()->nullable();
             $table->timestamp('updated_at')->useCurrent()->nullable();
             $table->softDeletes();

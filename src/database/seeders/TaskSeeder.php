@@ -19,17 +19,14 @@ class TaskSeeder extends Seeder
         Task::create([
             'title' => 'Implement feature A',
             'tag' => 1,
-            'tag_name' => 'Coding'
         ]);
         Task::create([
             'title' => 'Unit test for feature A',
             'tag' => 2,
-            'tag_name' => 'Unit test'
         ]);
         Task::create([
             'title' => 'Implement feature B',
             'tag' => 1,
-            'tag_name' => 'Coding'
         ]);
     }
 }
